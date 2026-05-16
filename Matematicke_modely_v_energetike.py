@@ -843,13 +843,13 @@ mod =   ["dvojkova norma",
          "jednotkova norma",
          "maximova norma",
          "penalizacna funkcia",
-         "hubertova funkcia",
+         "huberova funkcia",
          ]
 
 modely = ["Euklidovská norma",
          "Manhattanská norma",
          "Čebyševova norma",
-         "Penalizačná funkcia",
+         "Norma $\\ell_{1{,}5}$",
          "Huberova funkcia",
          "logisticka regresia"
          ] 
@@ -922,7 +922,7 @@ plt.show()
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(-500, 500, 10000)
+x = np.linspace(-250, 250, 10000)
 y = np.arcsinh(x)
 
 plt.figure(figsize=(10, 4))
